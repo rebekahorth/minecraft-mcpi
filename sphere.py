@@ -1,7 +1,8 @@
 import mcpi.minecraft as minecraft
 import mcpi.block as block
 import time
-mc = minecraft.Minecraft.create("54.175.169.202")
+import server
+mc = minecraft.Minecraft.create(server.address)
 
 mc.postToChat("Here is your sphere")
 
